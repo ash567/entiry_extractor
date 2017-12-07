@@ -1,0 +1,34 @@
+seed_sentence = ["Intel buying German chipmakers wireless unit",
+"Harbinger bought SkyTerra a satellite earlier this year",
+"CBS is selling WGNT in Norfolk to Local TV Holdings LLC",
+"Aug num Dell announces offer to buy numPar for $num per share or $num billion",
+"In October Adobe will be aquiring Web analytics firm Omniture for $num billion",
+"Thermo Fisher Scientific said it will buy Dionex for $num billion or $num per share",
+"Bonfante wont name the but says it was bought a year ago by a large publicly traded company",
+"RuralMetro will buy Pridemark Paramedic Services in order to expand its services in Colorado",
+"Sprint also owns most of Clearwire which is building a nationwide wireless broadband network",
+"Earlier this year Exxon Mobil bought XTO Energy to become Americas largest producer of natural gas",
+"Motorola on Thursday said it has acquired Aloqa GmbH a German developer of locationbased for smart",
+"IBM said Friday it has agreed to buy Unica Corp a marketing services for $num million or $num per share",
+"The paper stayed in the family until num when Avis Tucker sold the business to the St Josephbased NewsPress Gazette",
+"In num US Internet giant Yahoo acquired Jordans Maktoob then the Arab worlds largest online media for an undisclosed fee",
+"Covidien PLC which makes drugs and medical devices said Wednesday it is buying its distribution partner Somanetics for almost $num million",
+"ShoreTel acquired the intellectual property customer base and distribution network of the privately held Agito Networks in the allcash deal",
+"Business maker Deltek said Thursday that it will acquire database and market information Input Inc for $num million in an allcash transaction",
+Biotechnology Celgene said Wednesday it is expanding its array of cancer treatments with a deal to buy Abraxis BioScience for $num billion in "cash and stock",
+General Electric is paying $num billion to buy British oilfield Wellstream Holdings PLC and Dell is spending $num million for network storage "company Compellent Inc",
+The EnnisKnupp deal was closed with Hewitt in the process of coming under the umbrella of insurance conglomerate Aon which agreed to buy the "Lincolnshirebased July num for $num billion in cash and stock"]
+seed_sentence = [line.split() for line in seed_sentences]
+
+
+test_size = 10000
+f = open("final_processed", "r")
+data = f.read().split("\n")
+data = data[0:test_size]
+data = [line.split() for line in data]
+f.close()
+
+test = []
+for l1 in seed_senteces:
+	for l2 in data:
+		test.append((l1, l2))

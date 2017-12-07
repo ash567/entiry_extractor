@@ -1,0 +1,47 @@
+company1 = "Boeing Atlantic Veal Lamb Golf SunPower Life Partners Ralph Roberts Comcast SanDisk IBM Intel Dell Buffets Berkshire".split()
+company1.remove(" ")
+# Adobe for testing
+
+company2 = "Argon Buckeye airwaves Knott Totals solar unit lifeinsurance policies American Cable Systems ATT Broadband cable systems Vivisimo Qlogic Clerity Waco".split()
+company2.remove(" ")
+# FlashSoft
+
+verb = "bought buys buying".split()
+verb.remove(" ")
+# purchased for testing
+
+line = "Recently Adobe purchased FlashSoft"
+
+list_dictionary = [company1, verb, company2]
+
+----------------------------------------
+Boeing buys Argon
+
+Atlantic Veal and Lamb of New York buys Buckeye
+Life Partners buys lifeinsurance policies
+Golf buys the airwaves Knott 
+
+SunPower buys Totals solar unit for $num million
+Ralph Roberts buys American Cable Systems
+Comcast buys num percent of Storer Communications Inc
+Comcast buys ATT Broadband cable systems
+
+SanDisk buys software maker FlashSoft
+
+Wisconsin Power and Light Co currently buys about num megawatts of electricity from Calpines subsidiary Riverside Energy Center LLC which operates the Riverside Energy Center natural gas plant in Beloit Wis
+
+
+Facebook buys facialrecognition tech company
+IBM buys big data firm Vivisimo
+
+num Douglas Fairbanks buys a lodge and expands it into Pickfair house with his love Mary Pickford above the hotel
+num Interstate Company of New York buys the hotel from Margaret Anderson
+num Courtright buys the hotel with friends Loretta Young Irene Dunne Harry Warner and Joe Schnitzer and renames the El Jardin restaurant as the Polo Lounge in honor of polo players
+
+
+HP buys Electronic Data Systems which sells technology services for $num billion
+Intel buys Infiniband unit from Qlogic for $numM
+Dell buys Clerity in latest bet on cloud computing
+Buffets Berkshire buys Waco newspaper
+
+Google buys more patents from IBM
