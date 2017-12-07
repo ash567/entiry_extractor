@@ -10,7 +10,9 @@ We need to tell the model, the meaning of each tag in the template. For that, we
 
 In our case:
 Company1 = {SanDisk, IBM, Intel, Dell} // Big giant companies
+
 buy_verbs = {bought, buys, buying} // only some words related to buy
+
 Company2 = {Vivisimo, Box} // small startup companies
 
 Here are some of mined senetenses that we got after running the model on AP news corpus.
