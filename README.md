@@ -21,4 +21,4 @@ Here are some of mined senetenses that we got after running the model on AP news
 
 2. Business maker [Deltek] said Thursday that it will [acquire] database and market information [Input Inc] for $num million in an allcash transaction.
 
-Most of the companies in the sentences were not part of the seed which we gave for the tags.
+Most of the companies and the buy_verbs in the sentences were not part of the seed which we gave for the tags. The seed words were only used to convery the semantic meaning each tag, and our model is itelligent enough to capture the semantic of words and intentions of the user.
